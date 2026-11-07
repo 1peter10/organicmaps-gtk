@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2026 Vladislav Shadiuk -->
+<component type="desktop-application">
+  <id>io.github.x_vlad_x.Lichen</id>
+
+  <name>Lichen</name>
+  <summary>Detailed offline maps of the world</summary>
+  <developer id="io.github.x_vlad_x">
+    <name>Vladislav Shadiuk</name>
+  </developer>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+
+  <description>
+    <p>
+      Lichen is a native GNOME interface for the Organic Maps core, made for Linux phones and
+      also usable on desktops. Map rendering, search, routing, map downloads and bookmarks
+      work fully offline once the maps of a region are downloaded.
+    </p>
+    <p>
+      Lichen is an unofficial interface and is not affiliated with or endorsed by the
+      Organic Maps project. Map data © OpenStreetMap contributors.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.x_vlad_x.Lichen.desktop</launchable>
+  <provides>
+    <binary>lichen</binary>
+    <mediatype>application/gpx+xml</mediatype>
+    <mediatype>application/geo+json</mediatype>
+  </provides>
+
+  <url type="homepage">https://github.com/x-vlad-x/lichen</url>
+  <url type="bugtracker">https://github.com/x-vlad-x/lichen/issues</url>
+  <url type="vcs-browser">https://github.com/x-vlad-x/lichen</url>
+
+  <categories>
+    <category>Education</category>
+    <category>Geography</category>
+    <category>Maps</category>
+  </categories>
+  <keywords>
+    <keyword>Map</keyword>
+    <keyword>Offline Maps</keyword>
+    <keyword>Navigation</keyword>
+    <keyword>GPS</keyword>
+    <keyword>OpenStreetMap</keyword>
+    <keyword>OSM</keyword>
+  </keywords>
+
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <recommends>
+    <internet>first-run</internet>
+  </recommends>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+
+  <content_rating type="oars-1.1"/>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Place details</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/lichen/main/docs/screenshots/place-page.webp</image>
+    </screenshot>
+    <screenshot>
+      <caption>Search</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/lichen/main/docs/screenshots/search.webp</image>
+    </screenshot>
+    <screenshot>
+      <caption>Route planning</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/lichen/main/docs/screenshots/route.webp</image>
+    </screenshot>
+    <screenshot>
+      <caption>Turn-by-turn navigation</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/lichen/main/docs/screenshots/navigation.webp</image>
+    </screenshot>
+    <screenshot>
+      <caption>Night mode</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/lichen/main/docs/screenshots/night-mode.webp</image>
+    </screenshot>
+    <screenshot>
+      <caption>Map downloader</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/lichen/main/docs/screenshots/downloader.webp</image>
+    </screenshot>
+    <screenshot>
+      <caption>Map layers</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/lichen/main/docs/screenshots/layers.webp</image>
+    </screenshot>
+    <screenshot>
+      <caption>Settings</caption>
+      <image>https://raw.githubusercontent.com/x-vlad-x/lichen/main/docs/screenshots/settings.webp</image>
+    </screenshot>
+  </screenshots>
+
+</component>
